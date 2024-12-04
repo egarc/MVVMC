@@ -28,7 +28,7 @@ public class StoreSubscription<State> {
     }
 
     deinit {
-        block = nil
+        stop()
     }
 
 }

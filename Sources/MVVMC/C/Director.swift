@@ -8,6 +8,8 @@
 
 import Foundation
 
+// Handles deep linking by parsing URLs to extract scenes and query parameters based on the app's custom URL scheme.
+// Provides methods to validate, parse, and generate URLs for navigation within the app.
 class Director {
 
     // MARK: -
