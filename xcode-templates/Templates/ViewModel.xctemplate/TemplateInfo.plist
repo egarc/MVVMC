@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>SortOrder</key>
+	<string>2</string>
+	<key>Summary</key>
+	<string>This generates a new ViewModel following MVVMC architecture.</string>
+	<key>Description</key>
+	<string>This generates a new ViewModel following MVVMC architecture.</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Default</key>
+			<string>MyScene</string>
+			<key>Description</key>
+			<string>The name of the scene the view model is associated with</string>
+			<key>Identifier</key>
+			<string>sceneName</string>
+			<key>Name</key>
+			<string>Scene Name:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___ViewModel</string>
+			<key>Description</key>
+			<string>The view model name</string>
+			<key>Identifier</key>
+			<string>viewmodelName</string>
+			<key>Name</key>
+			<string>View Model Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___ViewModelProtocol</string>
+			<key>Description</key>
+			<string>The view model protocol name</string>
+			<key>Identifier</key>
+			<string>viewmodelProtocolName</string>
+			<key>Name</key>
+			<string>View Model Protocol Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___ViewModelDelegate</string>
+			<key>Description</key>
+			<string>The view model delegate name</string>
+			<key>Identifier</key>
+			<string>viewmodelDelegateName</string>
+			<key>Name</key>
+			<string>View Model Delegate Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+	</array>
+</dict>
+</plist>

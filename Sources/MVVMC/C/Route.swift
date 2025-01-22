@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol Route {
+public protocol Route {
 
     static var scene: Scene { get }
 

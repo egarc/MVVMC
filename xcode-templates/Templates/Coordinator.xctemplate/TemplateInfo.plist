@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>SortOrder</key>
+	<string>2</string>
+	<key>Summary</key>
+	<string>This generates a new Coordinator following MVVMC architecture.</string>
+	<key>Description</key>
+	<string>This generates a new Coordinator following MVVMC architecture.</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Default</key>
+			<string>MyScene</string>
+			<key>Description</key>
+			<string>The name of the scene the coordinator is associated with</string>
+			<key>Identifier</key>
+			<string>sceneName</string>
+			<key>Name</key>
+			<string>Scene Name:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>myScene</string>
+			<key>Description</key>
+			<string>The scene identifier for routing</string>
+			<key>Identifier</key>
+			<string>sceneIdentifier</string>
+			<key>Name</key>
+			<string>Scene Identifier</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___Coordinator</string>
+			<key>Description</key>
+			<string>The coordinator name</string>
+			<key>Identifier</key>
+			<string>coordinatorName</string>
+			<key>Name</key>
+			<string>Coordinator Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___Route</string>
+			<key>Description</key>
+			<string>The route name</string>
+			<key>Identifier</key>
+			<string>routeName</string>
+			<key>Name</key>
+			<string>Route Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>case .___VARIABLE_sceneIdentifier:identifier___</string>
+			<key>Description</key>
+			<string>The enum case to use for the Scene</string>
+			<key>Identifier</key>
+			<string>sceneEnumCase</string>
+			<key>Name</key>
+			<string>Scene:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+	</array>
+</dict>
+</plist>

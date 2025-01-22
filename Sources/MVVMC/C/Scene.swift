@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Scene : RawRepresentable, Equatable, Hashable {
+public struct Scene : RawRepresentable, Equatable, Hashable {
 
     public var rawValue: String
 
@@ -22,10 +22,10 @@ struct Scene : RawRepresentable, Equatable, Hashable {
 
 }
 
-extension Scene {
-
-    static let home = Scene(rawValue: "home")
-
-    static let favorites = Scene(rawValue: "favorites")
-
-}
+//extension Scene {
+//
+//    static let home = Scene(rawValue: "home")
+//
+//    static let favorites = Scene(rawValue: "favorites")
+//
+//}
